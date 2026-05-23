@@ -230,25 +230,6 @@ A submission is considered high quality if:
 
 ![Dashboard 1](Output/Dashboard-1.png)
 ![Dashboard 2](Output/Dashboard-2.png)
-
----
-
-## 📊 Validation Analytics
-
-<img width="100%" alt="Analytics" src="https://raw.githubusercontent.com/Bhavana998/Hackarena-Techspark/main/assets/analytics.png">
-
----
-
-## 🚨 Anomaly Detection Results
-
-<img width="100%" alt="Anomaly Detection" src="https://raw.githubusercontent.com/Bhavana998/Hackarena-Techspark/main/assets/anomaly.png">
-
----
-
-## 📈 Quality Score Distribution
-
-<img width="100%" alt="Quality Score" src="https://raw.githubusercontent.com/Bhavana998/Hackarena-Techspark/main/assets/quality.png">
-
 ---
 
 # 🛠️ Tech Stack
