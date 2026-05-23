@@ -229,7 +229,6 @@ A submission is considered high quality if:
 ## 🖥️ Main Dashboard
 
 ![Dashboard 1](output/dashboard-1.png)
-
 ![Dashboard 2](output/dashboard-2.png)
 
 ---
