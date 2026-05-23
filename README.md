@@ -224,14 +224,6 @@ A submission is considered high quality if:
 
 ---
 
-# 📸 Dashboard Preview
-
-## 🖥️ Main Dashboard
-
-![Dashboard 1](Output/Dashboard-1.png)
-![Dashboard 2](Output/Dashboard-2.png)
----
-
 # 🛠️ Tech Stack
 
 | Category        | Technology         |
