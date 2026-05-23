@@ -1,0 +1,36 @@
+# Web Framework
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+
+# ML & Data Processing
+numpy
+pandas
+scikit-learn
+torch
+xgboost
+joblib
+
+# Database
+sqlalchemy
+aioredis
+asyncpg
+alembic
+
+# Dashboard
+streamlit
+plotly
+streamlit
+
+# Monitoring & Metrics
+prometheus-client
+python-json-logger
+
+# Utilities
+python-dotenv
+aiohttp
+loguru
+httpx
+pytest
+pytest-asyncio
