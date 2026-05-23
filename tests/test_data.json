@@ -1,0 +1,18 @@
+{
+    "test_submissions": [
+        {
+            "company": "ServiceNow",
+            "title": "Software Engineer",
+            "level": "IC1",
+            "baseSalary": 19000,
+            "expected_score": 85
+        },
+        {
+            "company": "Google",
+            "title": "Senior Engineer",
+            "level": "IC4",
+            "baseSalary": 185000,
+            "expected_score": 90
+        }
+    ]
+}
