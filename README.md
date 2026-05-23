@@ -228,7 +228,9 @@ A submission is considered high quality if:
 
 ## 🖥️ Main Dashboard
 
-<img width="100%" alt="Dashboard" src="https://raw.githubusercontent.com/Bhavana998/Hackarena-Techspark/main/assets/dashboard.png">
+![Dashboard 1](output/dashboard-1.png)
+
+![Dashboard 2](output/dashboard-2.png)
 
 ---
 
