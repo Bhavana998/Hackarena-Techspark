@@ -49,7 +49,7 @@ Manual validation becomes impossible at scale.
 
 [https://hackarena-techspark.onrender.com/docs](https://hackarena-techspark.onrender.com/docs)
 
-## 🔗 AI Dashboard
+## 🔗 Frontend
 
 [https://bhavana998-hackarena-techspark-dashboardapp-3paiwk.streamlit.app/](https://bhavana998-hackarena-techspark-dashboardapp-3paiwk.streamlit.app/)
 
@@ -119,76 +119,30 @@ Visual analytics for:
 
 # 🏗️ System Architecture
 
-```text
+```mermaid
+flowchart LR
 
-                     ┌─────────────────────┐
-                     │ User Salary Form    │
-                     │ (Levels.fyi Style)  │
-                     └──────────┬──────────┘
-                                │                               
-                                ▼
-                    ┌──────────────────────────┐
-                    │ FastAPI Validation API   │
-                    │ Receives Submission      │
-                    └──────────┬───────────────┘
-                               │
-             ┌─────────────────┴─────────────────┐
-             │                                   │
-             ▼                                   ▼
- ┌──────────────────────┐           ┌──────────────────────┐
- │ Data Preprocessing   │           │ Metadata Extraction  │
- │ - Missing values     │           │ - IP Address         │
- │ - Data cleaning      │           │ - Timestamp          │
- │ - Type validation    │           │ - User Activity      │
- └──────────┬───────────┘           └──────────┬───────────┘
-            │                                  │
-            └────────────────┬─────────────────┘
-                             ▼
-              ┌──────────────────────────────┐
-              │ Rule-Based Validation Engine │
-              │                              │
-              │ ✔ Required field checks      │
-              │ ✔ Salary consistency         │
-              │ ✔ Experience validation      │
-              │ ✔ Role-location validation   │
-              └──────────────┬───────────────┘
-                             │
-                             ▼
-               ┌───────────────────────────┐
-               │ AI Anomaly Detection      │
-               │                           │
-               │ • Outlier Detection       │
-               │ • Salary Pattern Checks   │
-               │ • Suspicious Behaviour    │
-               │ • Duplicate Detection     │
-               └─────────────┬─────────────┘
-                             │
-                             ▼
-                ┌────────────────────────┐
-                │ Trust Scoring Engine   │
-                │                        │
-                │ Quality Score          │
-                │ Confidence Score       │
-                │ Risk Level             │
-                └────────────┬───────────┘
-                             │
-                             ▼
-                ┌────────────────────────┐
-                │ Validation Report      │
-                │                        │
-                │ ✅ Accepted            |
-                │ ⚠ Needs Review         │
-                │ 🚨 Rejected            │
-                └────────────┬───────────┘
-                             │
-                             ▼
-                ┌────────────────────────┐
-                │ Streamlit Dashboard    │
-                │                        │
-                │ • Analytics            │
-                │ • Risk Visualization   │
-                │ • Submission Insights  │
-                └────────────────────────┘
+A[User Submission]
+--> B[FastAPI API]
+
+B --> C[Preprocessing]
+B --> D[Metadata Extraction]
+
+C --> E[Rule Engine]
+D --> E
+
+E --> F[AI Anomaly Detection]
+
+F --> G[Trust Scoring]
+
+G --> H[Validation Report]
+
+H --> I[Dashboard]
+
+I --> J[(Database)]
+```
+
+                
 
 ---
 
