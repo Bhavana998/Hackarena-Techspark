@@ -120,7 +120,7 @@ Visual analytics for:
 # 🏗️ System Architecture
 
 ```mermaid
-flowchart LR
+flowchart TD
 
 A[User Submission]
 --> B[FastAPI API]
