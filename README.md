@@ -142,9 +142,17 @@ H --> I[Dashboard]
 I --> J[(Database)]
 ```
 
-                
+# 📊 Project Outputs
+
+## Dashboard Overview
+
+![Dashboard 1](output/dashboard-1.png)
 
 ---
+
+## Validation Analytics
+
+![Dashboard 2](output/dashboard-2.png)
 
 # 🧪 Validation Logic
 
