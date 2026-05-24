@@ -45,9 +45,9 @@ Manual validation becomes impossible at scale.
 
 # 🌐 Live Demo
 
-## 🔗 Backend API
+## 🔗 Backend 
 
-[https://hackarena-techspark.onrender.com](https://hackarena-techspark.onrender.com)
+[https://hackarena-techspark.onrender.com/docs](https://hackarena-techspark.onrender.com/docs)
 
 ## 🔗 AI Dashboard
 
