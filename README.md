@@ -154,7 +154,11 @@ I --> J[(Database)]
 
 ![Dashboard 2](output/dashboard-2.png)
 
-# 🧪 Validation Logic
+---
+
+## Live Validation Result
+![Live Validation Report](output/live-validation-report.png)
+
 
 ## 📌 High Quality Submission Rules
 
